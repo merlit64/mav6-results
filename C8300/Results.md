@@ -53,5 +53,7 @@
 | HTTPS_CLIENT  | PASS   |
 | SNMPV2_TRAP   | PASS   |
 | SNMPV3_TRAP   | PASS   |
-| NTP_CLIENT    | FAIL   |
+| NTP_CLIENT    | PASS*   |
 | SYSLOG_CLIENT | PASS   |
+
+*The NTP_CLIENT test may time out before NTP clocks are synchronized, causing the test to fail. This can be prevented if the clock is manually set to the current time before the test runs.
