@@ -26,7 +26,7 @@
 | HTTPS_CLIENT  | PASS   |
 | SNMPV2_TRAP   | PASS   |
 | SNMPV3_TRAP   | PASS   |
-| NTP_CLIENT    | FAIL   |
+| NTP_CLIENT    | PASS*   |
 | SYSLOG_CLIENT | PASS   |
 
 ### IPv6 Test Results
